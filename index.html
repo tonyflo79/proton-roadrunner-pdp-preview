@@ -127,7 +127,7 @@ button{ font-family:inherit; cursor:pointer; color:inherit; }
   aspect-ratio:1/1; background:#000; border:1px solid var(--hair); border-radius:6px; overflow:hidden;
 }
 .gallery .main img{ width:100%; height:100%; object-fit:cover; }
-.thumbs{ display:grid; grid-template-columns:repeat(6,1fr); gap:8px; margin-top:10px; }
+.thumbs{ display:grid; grid-template-columns:repeat(5,1fr); gap:8px; margin-top:10px; }
 .thumb{
   aspect-ratio:1/1; background:#000; border:1px solid var(--hair); border-radius:4px; overflow:hidden;
   padding:0; opacity:.5; transition:opacity .2s, border-color .2s;
@@ -173,7 +173,7 @@ button{ font-family:inherit; cursor:pointer; color:inherit; }
 @media(max-width:920px){
   .hero{ grid-template-columns:1fr; gap:30px; }
   .buybox{ position:static; }
-  .thumbs{ grid-template-columns:repeat(6,1fr); }
+  .thumbs{ grid-template-columns:repeat(5,1fr); }
   .buybox > .kicker{ display:none; }              /* hide the Series Four eyebrow on mobile */
   .hero-promise.desk-only{ display:none; }         /* desktop promise hidden on mobile */
   .hero-promise.mob-only{ display:block; margin-top:30px; max-width:none; } /* show promise below the trust badges */
@@ -380,11 +380,10 @@ footer{ background:var(--ink-1); border-top:1px solid var(--hair-2); padding:cla
       <div class="main"><img id="heroMain" data-img="01-aerograde" src="assets/roadrunner/01-aerograde.png" alt="Series Four — Project Roadrunner paddle, AeroGrade Construction overview" /></div>
       <div class="thumbs" id="thumbs">
         <button class="thumb on" data-img="01-aerograde" aria-label="AeroGrade Construction"><img data-img="01-aerograde" src="assets/roadrunner/01-aerograde.png" alt="" /></button>
-        <button class="thumb" data-img="06-angle" aria-label="Project Roadrunner"><img data-img="06-angle" src="assets/roadrunner/06-angle.png" alt="" /></button>
         <button class="thumb" data-img="03-kevlar-face" aria-label="Carbon-Kevlar Weave Face"><img data-img="03-kevlar-face" src="assets/roadrunner/03-kevlar-face.png" alt="" /></button>
         <button class="thumb" data-img="02-core" aria-label="Touch-Power Hybrid Core"><img data-img="02-core" src="assets/roadrunner/02-core.png" alt="" /></button>
         <button class="thumb" data-img="04-dual-stamp" aria-label="Dual-Stamped Approval"><img data-img="04-dual-stamp" src="assets/roadrunner/04-dual-stamp.png" alt="" /></button>
-        <button class="thumb" data-img="05-build" aria-label="Aerospace Build"><img data-img="05-build" src="assets/roadrunner/05-build.png" alt="" /></button>
+        <button class="thumb" data-img="05-build" aria-label="Aerodynamic Build"><img data-img="05-build" src="assets/roadrunner/05-build.png" alt="" /></button>
       </div>
       <div class="hero-promise desk-only">
         <p>Explosive power off the face — and the grit to keep it there. <span class="grad">That's what the carbon-Kevlar weave and Touch-Power Core give you</span> — touch on the dink, power on the drive, a face that stays gritty across thousands of hits.</p>
