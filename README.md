@@ -32,7 +32,11 @@ Served via GitHub Pages from `main` (root) once enabled:
 | `assets/roadrunner/people/` | Pros, founder (`charles-darling.jpg`), construction shot — **placeholder roster**, client swaps post-deploy |
 | `assets/brand`, `assets/certs` | Proton wordmark/atom + UPA/USA cert seals (brand-level, reused) |
 
-## Open items before launch (confirm w/ Mike)
-- **Price** — currently placeholder `$195` (search `PRICE PLACEHOLDER` in `index.html`).
+## Open items before launch
 - **Pros** — placeholder roster; client updates after taking over the site.
+- **Nav wordmark "p"** — the standalone atom mark now has a white "p" (visible on dark). The
+  `proton-wordmark-white.png` atom-o has a *white* nucleus (small), so it was left untouched to
+  avoid retouching the official lockup — best fixed from a clean source if Mike wants it changed.
 - Optional: warranty term, additional colorways/shapes if the line expands.
+
+_Price confirmed **$175** (2026-06-03)._
